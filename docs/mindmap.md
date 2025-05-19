@@ -1,4 +1,4 @@
-# Low-cost PET mind map
+# mind map
 
 <style>
   .markmap > svg {
