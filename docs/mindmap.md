@@ -1,22 +1,35 @@
-# Low-cost PET design considerations mind map
+# Low-cost PET mind map
+
+<style>
+  .markmap > svg {
+    width: 100% !important;
+    height: 85vh;
+  }
+  main.md-main__inner {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+</style>
+
+
 
 ```markmap
-# Low-cost PET design considerations
+# Low-cost PET
 
 ## Upfront cost factors
-- Detector Size
-    - Specialised/Paedetric PET
-    - Solid-angle coverage per unit scintillator volume
-    - Parallax errors for small PET detectors
-- Choice of scintillator material
-- Volume of scintillator material
-    - Z-spread, shallow layers and photon detection efficiency
-- Number of readout channels
-    - row-column multiplexing
-- Choice of DAQ hardware 
-    - specialised ASICs vs. generic FPGAs
+- [Detector Size](detector-size.md)
+  - Specialised/Paediatric PET
+  - Solid-angle coverage per unit volume
+  - Parallax errors for small PET detectors
+- [Scintillator material](scintillator-material.md)
+- [Volume of scintillator material](scintillator-volume.md)
+  - Z-spread and photon detection efficiency
+- [Readout channels](readout-channels.md)
+  - Row-column multiplexing
+- [DAQ hardware](daq-hardware.md)
+  - ASICs vs FPGAs
 
 ## Operating cost factors
 - Scanning time & Minimum dose
-    - Photon detection efficiency
+  - Photon detection efficiency
 ```
