@@ -12,7 +12,7 @@
 - Volume of scintillator material
     - Z-spread, shallow layers and photon detection efficiency
 - Number of readout channels
-    - multiplexing
+    - row-column multiplexing
 - Choice of DAQ hardware 
     - specialised ASICs vs. generic FPGAs
 
