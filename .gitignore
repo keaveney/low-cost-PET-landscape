@@ -1,0 +1,24 @@
+# MkDocs build output
+site/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+py39-env-markmap/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and workspace settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
