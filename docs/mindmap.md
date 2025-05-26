@@ -1,4 +1,4 @@
-# mind map
+# MIND MAP
 
 <style>
   .markmap > svg {

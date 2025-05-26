@@ -15,4 +15,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - MindMap: mindmap.md
   - Readout Channels: readout-channels.md
