@@ -4,11 +4,13 @@ plugins:
     - search
     - markmap
     - bibtex:
-        bib_file: "docs/references.bib"
+        bib_file: docs/references.bib
 
 markdown_extensions:
     - footnotes
     - pymdownx.caret
+    - attr_list
+    - md_in_html
 
 nav:
   - Home: index.md
