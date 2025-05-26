@@ -4,3 +4,5 @@ plugins:
     - markmap
     - bibtex:
         bib_file: docs/references.bib
+markdown_extensions:
+    - footnotes
