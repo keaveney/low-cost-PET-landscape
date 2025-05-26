@@ -17,10 +17,10 @@ nav:
     - Home: index.md
     - MindMap: mindmap.md
     - Readout Electronics:
-        - Aquisition Hardware: docs/readout_electronics/aquisition-hardware.md
-        - Readout Channels: docs/readout_electronics/channels.md
-        - SiPMs: docs/readout_electronics/sipms.md
+        - Aquisition Hardware: readout_electronics/aquisition-hardware.md
+        - Readout Channels: readout_electronics/channels.md
+        - SiPMs: readout_electronics/sipms.md
     - Sensitive Elements:
-        - Geometry: docs/sensitive_elements/geometry.md
-        - DOI Encoding: docs/sensitive_elements/doi_encoding.md
-        - Scintillation Material: docs/sensitive_elements/scintillation-material.md
+        - Geometry: sensitive_elements/geometry.md
+        - DOI Encoding: sensitive_elements/doi_encoding.md
+        - Scintillation Material: sensitive_elements/scintillation-material.md
