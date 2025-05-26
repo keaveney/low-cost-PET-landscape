@@ -24,7 +24,7 @@
 - [Scintillator material](scintillator-material.md)
 - [Volume of scintillator material](scintillator-volume.md)
   - Z-spread and photon detection efficiency
-- [Readout channels](docs/readout-channels.md)
+- [Readout channels](readout-channels/index.html)
   - Row-column multiplexing
 - [DAQ hardware](daq-hardware.md)
   - ASICs vs FPGAs
