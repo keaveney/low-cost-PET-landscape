@@ -1,5 +1,5 @@
 # READOUT CHANNELS
 
-Readout channeels are important [@pagano_new_2022]
+Readout channeels are important [@dujardin_inorganic_nodate]
 
 \bibliography
