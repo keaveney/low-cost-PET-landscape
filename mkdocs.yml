@@ -5,6 +5,7 @@ plugins:
     - markmap
     - bibtex:
         bib_file: docs/references.bib
+        csl_file: docs/ieee.csl
 
 markdown_extensions:
     - footnotes
