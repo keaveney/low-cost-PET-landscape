@@ -1,5 +1,5 @@
 # READOUT CHANNELS
 
-Readout channeels are important [@dujardin_inorganic_nodate]
+More readout channels increase the cost of a detector [@dujardin_inorganic_nodate]
 
 \bibliography
