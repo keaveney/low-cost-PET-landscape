@@ -2,3 +2,6 @@ site_name: My Docs
 plugins:
     - search
     - markmap
+    - bibtex:
+        bib_file: docs/references.bib
+        csl_file: docs/ieee.csl
