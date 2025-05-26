@@ -1,8 +1,15 @@
 site_name: My Docs
+
 plugins:
     - search
     - markmap
     - bibtex:
         bib_file: docs/references.bib
+
 markdown_extensions:
     - footnotes
+    - pymdownx.caret
+
+nav:
+  - Home: index.md
+  - Readout Channels: readout-channels.md
