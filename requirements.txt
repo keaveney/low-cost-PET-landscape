@@ -28,3 +28,4 @@ watchdog==6.0.0
 zipp==3.21.0
 mkdocs-material
 mkdocs-bibtex
+pymdown-extensions>=10.0

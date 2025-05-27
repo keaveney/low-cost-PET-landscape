@@ -15,7 +15,9 @@ The standard PET detector geometry is
 
 The average ring diameter for commercial PET scanners is 75 - 90cm [@daube-witherspoon_scanner_2021]. One can increase the solid angle coverage of a detector with teh same amount of scintillation material by reducing the ring diameter [@daube-witherspoon_scanner_2021]. This is clearly described with the equation for the solid angle coverage:
 
-$\Omega = A/r^2$
+$$
+\Omega = \frac{A}{r^2}
+$$
 
 Where $A$ is the total cross sectional area of the detector modules that are perpendicular to the rings radius and $r$ is the ring diameter. If $A$ remains constant and $r$ decreases then the solid angle coverage, $\Omega$ increases. This is a great way to increase 
 
@@ -28,7 +30,7 @@ Most scanners have a standard axial length of 15-26cm [@el_ouaridi_detection_202
 - dynamic whole-body imaging
 - parametric imaging
 
-The huge downside of a long AFOV camera is that is drastically increases teh cost [@el_ouaridi_detection_2024]. This increase in cost has pushed the industry leaders to start optimizing for lower cost. These cost saving strategies can then be implemented in an ultra-low-cost short AFOV scanner. Some of the methods being expplored include reducing the length of scintillator pixels by half, using sparsely filled detectors and reverting back to BGO [@el_ouaridi_detection_2024].
+The huge downside of a long AFOV camera is that is drastically increases the cost [@el_ouaridi_detection_2024]. This increase in cost has pushed the industry leaders to start optimizing for lower cost. These cost saving strategies can then be implemented in an ultra-low-cost short AFOV scanner. Some of the methods being expplored include reducing the length of scintillator pixels by half, using sparsely filled detectors and reverting back to BGO [@el_ouaridi_detection_2024].
 
 #### Pixelated Arrays
 Most detectors are made with long thin pixellated scintillators coupled to photodetectors at their extremities [@el_ouaridi_detection_2024]. All the pixels are optically separated using some reflective material [@el_ouaridi_detection_2024].
