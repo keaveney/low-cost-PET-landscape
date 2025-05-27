@@ -25,5 +25,5 @@ nav:
         
         - Scintillation Material: sensitive_elements/scintillation-material.md
     - Performance Enhancements:
-        - DOI Encoding: sensitive_elements/doi-encoding.md
-        - Time Of Flight: time-of-flight.md
+        - DOI Encoding: performance_enhancements/doi-encoding.md
+        - Time Of Flight: performance_enhancements/time-of-flight.md
