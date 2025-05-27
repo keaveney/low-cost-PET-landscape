@@ -22,5 +22,8 @@ nav:
         - SiPMs: readout_electronics/sipms.md
     - Sensitive Elements:
         - Geometry: sensitive_elements/geometry.md
-        - DOI Encoding: sensitive_elements/doi_encoding.md
+        
         - Scintillation Material: sensitive_elements/scintillation-material.md
+    - Performance Enhancements:
+        - DOI Encoding: sensitive_elements/doi-encoding.md
+        - Time Of Flight: time-of-flight.md

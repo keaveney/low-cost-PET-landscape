@@ -8,7 +8,7 @@ This is because of their [@el_ouaridi_detection_2024]:
 - low noise
 - fast response time
 
-SiPMs began to be the favourable choice because of their [@el_ouaridi_detection_2024]:
+SiPMs began to be the favorable choice because of their [@el_ouaridi_detection_2024]:
 
 - fragility
 - large volumes
@@ -20,7 +20,7 @@ SiPMs began to be the favourable choice because of their [@el_ouaridi_detection_
 ### BENEFITS OVER PMTs
 
 - More compact
-    - one-to-one coupling with scintillator pixels increases light collection while maintaining spatial resolution [@el_ouaridi_detection_2024]
+    - one-to-one coupling with scintillator pixels increases light collection while maintaining spatial resolution [@el_ouaridi_detection_2024;@daube-witherspoon_scanner_2021]
     - increases geometric freedom
 - Insensitive to magnetic fields [@el_ouaridi_detection_2024]
 - High gains equivalent to PMTs [@el_ouaridi_detection_2024]
