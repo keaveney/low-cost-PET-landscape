@@ -5,11 +5,12 @@ The standard PET detector geometry is
 
 ### MODULE
 
-## No of SiPMs
+#### Number of Channels
+Increasing solid angle coverage of a detector as a means of increasing sensitivity typically means increasing the number of SiPMs and total volume of scintillation material which increasing the cost of the detector [@daube-witherspoon_scanner_2021]. 
 
-### Scintillator Length
+#### Scintillator Length
 
-### Scintillator Thickness
+#### Scintillator Thickness
 
 ### RING DIAMETER
 
@@ -19,7 +20,13 @@ $$
 \Omega = \frac{A}{r^2}
 $$
 
-Where $A$ is the total cross sectional area of the detector modules that are perpendicular to the rings radius and $r$ is the ring diameter. If $A$ remains constant and $r$ decreases then the solid angle coverage, $\Omega$ increases. This is a great way to increase 
+Where $A$ is the total cross sectional area perpendicular to the rings radius of the detector modules and $r$ is the ring diameter. If we do not add any new modules to the ring and $A$ remains constant while $r$ decreases then the solid angle coverage, $\Omega$ increases. This is a great way to increase teh sensitivity of a detector without increasing the cost.
+
+This however, does not come without its disadvantages [@daube-witherspoon_scanner_2021]:
+
+- Reduces clinical applications
+- Increased detection of random and scattered events. Decreases the SNR.
+- Degradations in spatial resolution due to parallax error.
 
 ### AXIAL LENGTH
 Most scanners have a standard axial length of 15-26cm [@el_ouaridi_detection_2024;@daube-witherspoon_scanner_2021]. Patient is displaced along the axis to image the entire body. This requires 8-10 overlapping pbed positions for 10-290 minutes at 370-555 MBq of FDG [@daube-witherspoon_scanner_2021]. A large percentage of the photons are lost. There has been a growing interest in long axial FOV scanners [@el_ouaridi_detection_2024]. 
@@ -44,7 +51,9 @@ Most detectors are made with long thin pixellated scintillators coupled to photo
 These disadvantages can be mitigated by optimizing reflector and lateral surface finishes of scintillator pixels [@el_ouaridi_detection_2024]
 
 ##### Coupling Ratio
-The typical approach is to have a one-to-one ratio between the number of SiPMs and scintillator pixels. Meaning that each SiPM reads the light from a single scintillator pixel. Some design take teh approach of coupling more than one scintillator pixel to a single SiPM [@pizzichemi_new_2016;@wang_development_2022;@wang_evaluation_2021;@zatcepin_improving_2020-1;@pizzichemi_light_2019]. The relative signals in surrounding SiPMs are used to find the center of the light distribution and determine the crystal involved in the detection [@el_ouaridi_detection_2024]. This method taken directly from of how PET detectors using PMTs resolve the position of interaction [@daube-witherspoon_scanner_2021] 
+The typical approach is to have a one-to-one ratio between the number of SiPMs and scintillator pixels. Meaning that each SiPM reads the light from a single scintillator pixel. Some design take teh approach of coupling more than one scintillator pixel to a single SiPM [@pizzichemi_new_2016;@wang_development_2022;@wang_evaluation_2021;@zatcepin_improving_2020-1;@pizzichemi_light_2019]. The light output by a scintillator pixel is spread across multiple SiPMs via a light guide [@daube-witherspoon_scanner_2021]. The center of the light distribution determines the scintillator pixel that the original 511keV photon interacted with [@el_ouaridi_detection_2024]. This method is known as Anger Logic and is borrowed from older PET detectors that used large PMTs coupled to scintillator arrays [@daube-witherspoon_scanner_2021] 
+
+The benefit of coupling multiple smaller scintillator pixels to a single SiPM is that you decrease the thickness of the scintillator pixels without requiring more smaller SiPMs to read them out. While larger SiPMs are slightly more expensive than smaller crystals, reading out some fixed number and size of scintillator pixels with less larger SiPMs is more cost effective than with more smaller SiPMs. As the scintillator width becomes increasingly small, one-to-one coupling becomes increasingly more difficult due to mechanical tolerances.
 
 #### Monolithic Arrays
 A continuous thick block of scintillation material is coupled to an array of SiPMs on one of its 6 sides.
