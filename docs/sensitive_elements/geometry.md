@@ -20,13 +20,13 @@ $$
 \Omega = \frac{A}{r^2}
 $$
 
-Where $A$ is the total cross sectional area perpendicular to the rings radius of the detector modules and $r$ is the ring diameter. If we do not add any new modules to the ring and $A$ remains constant while $r$ decreases then the solid angle coverage, $\Omega$ increases. This is a great way to increase teh sensitivity of a detector without increasing the cost.
+Where $A$ is the total cross sectional area perpendicular to the rings radius of the detector modules and $r$ is the ring diameter. If we do not add any new modules to the ring and $A$ remains constant while $r$ decreases then the solid angle coverage, $\Omega$ increases. This is a great way to increase the sensitivity of a detector without increasing the cost.
 
-This however, does not come without its disadvantages [@daube-witherspoon_scanner_2021]:
+This however, does not come without its disadvantages:
 
-- Reduces clinical applications
-- Increased detection of random and scattered events. Decreases the SNR.
-- Degradations in spatial resolution due to parallax error.
+- Reduces clinical applications [@daube-witherspoon_scanner_2021;@enlow_state---art_2023]
+- Increased detection of random and scattered events. Decreases the SNR. [@daube-witherspoon_scanner_2021]
+- Degradations in spatial resolution due to parallax error. [@daube-witherspoon_scanner_2021;@enlow_state---art_2023]
 
 ### AXIAL LENGTH
 Most scanners have a standard axial length of 15-26cm [@el_ouaridi_detection_2024;@daube-witherspoon_scanner_2021]. Patient is displaced along the axis to image the entire body. This requires 8-10 overlapping pbed positions for 10-290 minutes at 370-555 MBq of FDG [@daube-witherspoon_scanner_2021]. A large percentage of the photons are lost. There has been a growing interest in long axial FOV scanners [@el_ouaridi_detection_2024]. 

@@ -32,3 +32,4 @@ nav:
     - Performance Enhancements:
         - DOI Encoding: performance_enhancements/doi-encoding.md
         - Time Of Flight: performance_enhancements/time-of-flight.md
+        - Performance: performance_enhancements/performance.md
