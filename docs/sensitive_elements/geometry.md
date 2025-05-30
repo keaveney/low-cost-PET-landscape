@@ -9,6 +9,8 @@ The standard PET detector geometry is
 Increasing solid angle coverage of a detector as a means of increasing sensitivity typically means increasing the number of SiPMs and total volume of scintillation material which increasing the cost of the detector [@daube-witherspoon_scanner_2021]. 
 
 #### Scintillator Length
+- Increasing the length of the scintillator increases transit time which decreases timing resolution [@enlow_state_art_2023]
+- 
 
 #### Scintillator Thickness
 
@@ -42,9 +44,11 @@ The huge downside of a long AFOV camera is that is drastically increases the cos
 #### Pixelated Arrays
 Most detectors are made with long thin pixellated scintillators coupled to photodetectors at their extremities [@el_ouaridi_detection_2024]. All the pixels are optically separated using some reflective material [@el_ouaridi_detection_2024].
 
+The spatial resolution of a pixellated detector module is related to the width of the pixellated crystal. The sptial resolution of a pixellated detector module is estimated to be half the width of a single scintillator pixel [@enlow_state_art_2023]. 
+
 ##### Disadvantages
 
-- variation in scintillation light collection efficency [@el_ouaridi_detection_2024]
+- variation in scintillation light collection efficency [@el_ouaridi_detection_2024;@enlow_state_art_2023]
 - variations in light transmit time to detector [@el_ouaridi_detection_2024]
 - light undergoes various reflections within scintillator array [@el_ouaridi_detection_2024]
 - increases parallax effects [@el_ouaridi_detection_2024]
@@ -61,14 +65,17 @@ A continuous thick block of scintillation material is coupled to an array of SiP
 ##### Advantages
 
 - Good sensitivity [@el_ouaridi_detection_2024]
-- Innate DOI encoding [@el_ouaridi_detection_2024]
+- Innate DOI encoding via light distribution [@el_ouaridi_detection_2024;@enlow_state_art_2023]
 - High intrinsic spatial resolution [@el_ouaridi_detection_2024]
 - Lower manufacturing cost [@el_ouaridi_detection_2024]
 
 ##### Disadvantages
 
-- Sophisticated algorithms and calibration required [@el_ouaridi_detection_2024]
+- Sophisticated algorithms and calibration required [@el_ouaridi_detection_2024;@enlow_state_art_2023]
 - Each deposited 511keV photon triggers every SiPM which can quickly overwhelm the acquisition hardware and cause pileup. Lost events.
+- The spatial resolution degrades as teh length of the monolithic block increases [@enlow_state_art_2023]. Need to balance spatial resolution with sensitivity.
+
+There has been success cutting guides into monolithic blocks using lasers to create optical barriers that guide light over the photosensors to mitigate these disadvantages [@enlow_state_art_2023]
 
 ## OTHER
 
