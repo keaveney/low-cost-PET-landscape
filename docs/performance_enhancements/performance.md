@@ -1,6 +1,6 @@
 # SENSITIVITY
 
-SNR in pet is proportional to square root the number of events [@enlow_state---art_2023]
+SNR in pet is proportional to square root the number of events [@enlow_state_art_2023]
 
 $$
 SNR \propto \sqrt{Number of Events}
@@ -9,10 +9,10 @@ $$
 The number of events $n$:
 
 $$
-n = k*A*G*(\varepsilon^2)*T [@enlow_state---art_2023]
+n = k*A*G*(\varepsilon^2)*T [@enlow_state_art_2023]
 $$
 
-n = kAGe^2*T [@enlow_state---art_2023]
+n = kAGe^2*T [@enlow_state_art_2023]
 - $A$ = activity in the FoV
 - $G$ = geometric coverage
 - $T$ = acquisition time
@@ -21,3 +21,4 @@ n = kAGe^2*T [@enlow_state---art_2023]
 
 # ENERGY RESOLUTION
 
+photons have a high likelihood of scattering in 
