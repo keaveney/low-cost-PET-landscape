@@ -40,6 +40,8 @@ SiPMs are made up of an array of SPADs. The amount of SPADs that are triggered c
 | Microcell Sizes (µm)    | 10, 20, 35                  |
 
 
+### SIPM PARAMETERS
+
 ### SiPM ARRAYS
 
 A SiPM array is a set of SiPMs that is arranged on a single PCB with a single pin connector that facilitates the connection between many SIPMs and the readout electronics.
@@ -83,4 +85,8 @@ Cost of an individual SiPM is dependent on the amount of SiPMs bought and the pa
 
 #### COMMERCIAL VS CUSTOM COST
 
-### SIZE
+Costing information was taken from [Mouser Electronics](https://www.mouser.co.za/). While some products may be cheaper from at different distributors, the main concern is the relative price difference between SiPMs and SiPM arrays. Thus a single distributor was used as the source in order to maintain this relative price difference. 
+
+The price per SiPM when buying single SiPMs or commercial arrays was plotted to determine the influence how the choice of a custom array or commercial array would influence the total cost of the final PET detector. Red dots denote single SiPMs and blue dots denote the commercial SiPM arrays.
+
+**need to redo plot**

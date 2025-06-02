@@ -10,6 +10,9 @@ Double sided readout has been shown to improve timing resolution [@enlow_state_a
 ## SINGLE SIDED READOUT
 
 ### Pixelated
+
+The use of Anger logic to decode the pixel of interaction as well as extract DOI information is a cost effective method but increases teh pixel decoding error [@yoshida_pet_2024-1].
+
 #### 1D
 #### Glass Reflector
 #### Lateral Window
