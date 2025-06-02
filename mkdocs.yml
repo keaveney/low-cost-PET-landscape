@@ -22,7 +22,7 @@ nav:
     - Home: index.md
     - MindMap: mindmap.md
     - Readout Electronics:
-        - Aquisition Hardware: readout_electronics/aquisition-hardware.md
+        - Architecture: readout_electronics/architecture.md
         - Readout Channels: readout_electronics/channels.md
         - SiPMs: readout_electronics/sipms.md
     - Sensitive Elements:
