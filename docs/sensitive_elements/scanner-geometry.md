@@ -48,10 +48,10 @@ Most scanners have a standard axial length of 15-26cm [@el_ouaridi_detection_202
 
 The huge downside of a long AFOV scanning is that it drastically increases the cost [@el_ouaridi_detection_2024]. This increase in cost has pushed the industry leaders to start optimizing for lower cost. These cost saving strategies can then be implemented in an ultra-low-cost short AFOV scanner. Some of the methods being explored include reducing the length of scintillator pixels by half, using sparsely filled detectors and reverting back to BGO [@el_ouaridi_detection_2024].
 
+### MODULE POSITIONING
+
 ## OTHER
 
 ### Planer
 
 ### Dedicated Brain
-
-## MODULE POSITIONING

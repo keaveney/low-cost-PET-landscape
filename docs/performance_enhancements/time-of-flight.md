@@ -1,6 +1,6 @@
 # TIME OF FLIGHT
 
-The location of the annnihilation event along teh LOR has some uncertainty $\Delta * x$ that is dependent on the timing resolution $\Delta * t$ [@enlow_state_art_2023].
+The location of the annihilation event along teh LOR has some uncertainty $\Delta * x$ that is dependent on the timing resolution $\Delta * t$ [@enlow_state_art_2023].
 
 $$
 \Delta * X = \frac{c * \Delta * t}{2}
@@ -17,7 +17,7 @@ $$
 \frac{SNR_{TOF}}{SNR_{PET}} = \sqrt{2D}{c\Delta*t}
 $$
 
-This means that 
+This means that teh smaller the diameter of the scanner, the better teh timing resolution needs to be in order to maintain the same relative increase in SNR.
 
 Improving the timing resolution of a detector also reduces the number of random events as it allows for a tighter coincidence window [@daube-witherspoon_scanner_2021]. This becomes increasingly important for smaller diameter rings. 
 
