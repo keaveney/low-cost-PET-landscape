@@ -1,18 +1,7 @@
-# GEOMETRY
+# SCANNER GEOMETRY
 
 ## STANDARD
 The standard PET detector geometry is **insert diagram**
-
-### MODULE
-
-#### Number of Channels
-Increasing solid angle coverage of a detector as a means of increasing sensitivity typically means increasing the number of SiPMs and total volume of scintillation material which increasing the cost of the detector [@daube-witherspoon_scanner_2021]. 
-
-#### Scintillator Length
-
-- Increasing the length of the scintillator increases transit time which decreases timing resolution [@enlow_state_art_2023]
-
-#### Scintillator Thickness
 
 ### RING DIAMETER
 
@@ -62,5 +51,7 @@ The huge downside of a long AFOV scanning is that it drastically increases the c
 ## OTHER
 
 ### Planer
+
+### Dedicated Brain
 
 ## MODULE POSITIONING

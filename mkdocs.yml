@@ -26,8 +26,8 @@ nav:
         - Readout Channels: readout_electronics/channels.md
         - SiPMs: readout_electronics/sipms.md
     - Sensitive Elements:
-        - Scanner Geometry: sensitive_elements/module-geometry.md
-        - Module Geometry: sensitive_elements/scanner-geometry.md
+        - Scanner Geometry: sensitive_elements/scanner-geometry.md
+        - Module Geometry: sensitive_elements/module-geometry.md
         - Scintillation Material: sensitive_elements/scintillation-material.md
     - Performance Enhancements:
         - DOI Encoding: performance_enhancements/doi-encoding.md
