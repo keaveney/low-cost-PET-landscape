@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>SiPMs - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../mindmap/" class="nav-link">MindMap</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Readout Electronics</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../architecture/" class="dropdown-item">Architecture</a>
+</li>
+                                    
+<li>
+    <a href="../channels/" class="dropdown-item">Readout Channels</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">SiPMs</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Sensitive Elements</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../sensitive_elements/scanner-geometry/" class="dropdown-item">Scanner Geometry</a>
+</li>
+                                    
+<li>
+    <a href="../../sensitive_elements/module-geometry/" class="dropdown-item">Module Geometry</a>
+</li>
+                                    
+<li>
+    <a href="../../sensitive_elements/scintillation-material/" class="dropdown-item">Scintillation Material</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Performance Enhancements</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../performance_enhancements/doi-encoding/" class="dropdown-item">DOI Encoding</a>
+</li>
+                                    
+<li>
+    <a href="../../performance_enhancements/time-of-flight/" class="dropdown-item">Time Of Flight</a>
+</li>
+                                    
+<li>
+    <a href="../../performance_enhancements/performance/" class="dropdown-item">Performance</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../channels/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../sensitive_elements/scanner-geometry/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#photodetectors" class="nav-link">PHOTODETECTORS</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#move-away-from-pmt" class="nav-link">MOVE AWAY FROM PMT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#sipms" class="nav-link">SIPMS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="photodetectors">PHOTODETECTORS</h1>
+<h2 id="move-away-from-pmt">MOVE AWAY FROM PMT</h2>
+<p>Photo Multiplier Tubes (PMTs) were the main choice for photodetectors before SiPMs <sup id="fnref:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup>
+This is because of their <sup id="fnref2:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup>:</p>
+<ul>
+<li>high gain</li>
+<li>low noise</li>
+<li>fast response time</li>
+</ul>
+<p>SiPMs began to be the favorable over PMTs because of their <sup id="fnref3:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup>:</p>
+<ul>
+<li>fragility</li>
+<li>large volumes</li>
+<li>high operating voltage</li>
+<li>sensitivity to magnetic fields</li>
+</ul>
+<h2 id="sipms">SIPMS</h2>
+<p>SiPMs are made up of an array of SPADs. The amount of SPADs that are triggered creates a current signal that is proportional to the amount of scintillation light that hit the SiPM. However, if there is more scintillation photons than SPADs then the proportionality of the output current is lost <sup id="fnref:enlow_state_art_2023"><a class="footnote-ref" href="#fn:enlow_state_art_2023">2</a></sup></p>
+<h3 id="how-do-they-work">HOW DO THEY WORK?</h3>
+<h3 id="benefits-over-pmts">BENEFITS OVER PMTs</h3>
+<ul>
+<li>More compact <sup id="fnref2:enlow_state_art_2023"><a class="footnote-ref" href="#fn:enlow_state_art_2023">2</a></sup><ul>
+<li>one-to-one coupling with scintillator pixels increases light collection while maintaining spatial resolution <sup id="fnref6:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup> <sup id="fnref3:daube-witherspoon_scanner_2021"><a class="footnote-ref" href="#fn:daube-witherspoon_scanner_2021">3</a></sup> <sup id="fnref4:daube-witherspoon_scanner_2021"><a class="footnote-ref" href="#fn:daube-witherspoon_scanner_2021">3</a></sup></li>
+<li>increases geometric freedom</li>
+</ul>
+</li>
+<li>Insensitive to magnetic fields <sup id="fnref4:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup> <sup id="fnref3:enlow_state_art_2023"><a class="footnote-ref" href="#fn:enlow_state_art_2023">2</a></sup></li>
+<li>High gains equivalent to PMTs <sup id="fnref5:el_ouaridi_detection_2024"><a class="footnote-ref" href="#fn:el_ouaridi_detection_2024">1</a></sup></li>
+<li>High detection efficiency <sup id="fnref:daube-witherspoon_scanner_2021"><a class="footnote-ref" href="#fn:daube-witherspoon_scanner_2021">3</a></sup></li>
+<li>Relatively low cost <sup id="fnref2:daube-witherspoon_scanner_2021"><a class="footnote-ref" href="#fn:daube-witherspoon_scanner_2021">3</a></sup></li>
+</ul>
+<h3 id="typical-commercially-available-sipm-parameters">TYPICAL COMMERCIALLY AVAILABLE SIPM PARAMETERS</h3>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Standard Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SiPM Widths (mm)</td>
+<td>1, 3, 4, 6</td>
+</tr>
+<tr>
+<td>Array Sizes (Pixels)</td>
+<td>4, 16, 64, 144</td>
+</tr>
+<tr>
+<td>Microcell Sizes (µm)</td>
+<td>10, 20, 35</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sipm-parameters">SIPM PARAMETERS</h3>
+<h3 id="sipm-arrays">SiPM ARRAYS</h3>
+<p>A SiPM array is a set of SiPMs that is arranged on a single PCB with a single pin connector that facilitates the connection between many SIPMs and the readout electronics.</p>
+<h4 id="commercial">COMMERCIAL</h4>
+<p>Companies like Broadcom, Hammamatsu and Onsemi populate PCBs with their SiPMs to create square SiPM arrays of varying sizes.</p>
+<p>Advantages:</p>
+<ul>
+<li>Very little development time.</li>
+<li>Makes open-source detector design more accessible to others.</li>
+<li>Reliability</li>
+<li>Manufacturer support</li>
+<li>Producers of SiPMs have control over the manufacturing allowing them to create arrays maximized active area</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Standard sizes that limit geometric freedom</li>
+<li>Not all available SiPMs have a corresponding commercial SiPM array which limits you SiPM choice</li>
+<li>Standard pin connectors that may require adapter boards to connect to chosen acquisition hardware</li>
+</ul>
+<h4 id="custom">CUSTOM</h4>
+<p>An alternative to buying a commercial SiPM array is to design a custom PCB and populate the PCB with the SiPM of choice.</p>
+<p>Advantages:</p>
+<ul>
+<li>Control over mechanical footprint provides geometric freedom. (e.g non-square arrays)</li>
+<li>Increases SiPM choice</li>
+<li>Opportunity to explore different light sharing schemes as a means to reduce the amount of SiPMs and thus cost.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Long development times.</li>
+<li>Decreased availability to other interested parties.</li>
+<li>Manufacturing complexities.</li>
+<li>More costly unless SiPMs are bought at scale.</li>
+<li>Varying availability of individual SiPMs across distributors</li>
+</ul>
+<p>Cost of an individual SiPM is dependent on the amount of SiPMs bought and the package type they are sold in. SiPMs can be bought in a Tape Reel (min 3000) or on a Tape (min 1). Price per SiPM is much cheaper for TR but have to buy 3000. Some distributors buy a TR and cut them to customers desired number (price per SiPM varies based on amount cut from the original TR).</p>
+<h4 id="commercial-vs-custom-cost">COMMERCIAL VS CUSTOM COST</h4>
+<p>Costing information was taken from <a href="https://www.mouser.co.za/">Mouser Electronics</a>. While some products may be cheaper from at different distributors, the main concern is the relative price difference between SiPMs and SiPM arrays. Thus a single distributor was used as the source in order to maintain this relative price difference. </p>
+<p>The price per SiPM when buying single SiPMs or commercial arrays was plotted to determine the influence how the choice of a custom array or commercial array would influence the total cost of the final PET detector. Red dots denote single SiPMs and blue dots denote the commercial SiPM arrays.</p>
+<p><strong>need to redo plot</strong></p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:el_ouaridi_detection_2024">
+<p>A. El Ouaridi, Z. Ait Elcadi, M. Mkimel, M. Bougteb, and R. El Baydaoui, "The detection instrumentation and geometric design of clinical PET scanner: Towards better performance and broader clinical applications," <em>Biomed. Phys. Eng. Express</em>, vol. 10, no. 3, p. 032002, Mar. 2024, doi: <a href="https://doi.org/10.1088/2057-1976/ad2d61">10.1088/2057-1976/ad2d61</a>. <a class="footnote-backref" href="#fnref:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref3:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref4:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref5:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref6:el_ouaridi_detection_2024" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:enlow_state_art_2023">
+<p>E. Enlow and S. Abbaszadeh, "State-of-the-art challenges and emerging technologies in radiation detection for nuclear medicine imaging: A review," <em>Front. Phys.</em>, vol. 11, Apr. 2023, doi: <a href="https://doi.org/10.3389/fphy.2023.1106546">10.3389/fphy.2023.1106546</a>. <a class="footnote-backref" href="#fnref:enlow_state_art_2023" title="Jump back to footnote 2 in the text">↩</a><a class="footnote-backref" href="#fnref2:enlow_state_art_2023" title="Jump back to footnote 2 in the text">↩</a><a class="footnote-backref" href="#fnref3:enlow_state_art_2023" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:daube-witherspoon_scanner_2021">
+<p>M. E. Daube-Witherspoon and S. R. Cherry, "Scanner design considerations for long axial field-of-view PET systems," <em>PET Clin</em>, vol. 16, no. 1, pp. 25--39, Jan. 2021, doi: <a href="https://doi.org/10.1016/j.cpet.2020.09.003">10.1016/j.cpet.2020.09.003</a>. <a class="footnote-backref" href="#fnref:daube-witherspoon_scanner_2021" title="Jump back to footnote 3 in the text">↩</a><a class="footnote-backref" href="#fnref2:daube-witherspoon_scanner_2021" title="Jump back to footnote 3 in the text">↩</a><a class="footnote-backref" href="#fnref3:daube-witherspoon_scanner_2021" title="Jump back to footnote 3 in the text">↩</a><a class="footnote-backref" href="#fnref4:daube-witherspoon_scanner_2021" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+</ol>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
